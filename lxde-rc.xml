@@ -413,6 +413,15 @@
         <width client="yes">1/2</width>
       </action>
     </keybind>
+    <keybind key="C-A-S-KP_4">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width client="yes">1/3</width>
+      </action>
+    </keybind>
     <keybind key="C-A-KP_6">
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
@@ -420,6 +429,15 @@
         <x>-0</x>
         <y>0</y>
         <width client="yes">1/2</width>
+      </action>
+    </keybind>
+    <keybind key="C-A-S-KP_6">
+      <action name="UnmaximizeFull"/>
+      <action name="MaximizeVert"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width client="yes">1/3</width>
       </action>
     </keybind>
     <keybind key="C-A-KP_5">
@@ -441,6 +459,15 @@
         <height client="yes">1/2</height>
       </action>
     </keybind>
+    <keybind key="C-A-S-KP_9">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width client="yes">1/3</width>
+        <height client="yes">1/3</height>
+      </action>
+    </keybind>
     <!-- bottomright corner -->
     <keybind key="C-A-KP_3">
       <action name="UnmaximizeFull"/>
@@ -451,7 +478,15 @@
         <height client="yes">1/2</height>
       </action>
     </keybind>
-
+    <keybind key="C-A-S-KP_3">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>-0</y>
+        <width client="yes">1/3</width>
+        <height client="yes">1/3</height>
+      </action>
+    </keybind>
     <!-- topleft corner -->
     <keybind key="C-A-KP_7">
       <action name="UnmaximizeFull"/>
@@ -462,6 +497,15 @@
         <height client="yes">1/2</height>
       </action>
     </keybind>
+    <keybind key="C-A-S-KP_7">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width client="yes">1/3</width>
+        <height client="yes">1/3</height>
+      </action>
+    </keybind>
     <!-- bottomlfet corner -->
     <keybind key="C-A-KP_1">
       <action name="UnmaximizeFull"/>
@@ -470,6 +514,15 @@
         <y>-0</y>
         <width client="yes">1/2</width>
         <height client="yes">1/2</height>
+      </action>
+    </keybind>
+    <keybind key="C-A-S-KP_1">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width client="yes">1/3</width>
+        <height client="yes">1/3</height>
       </action>
     </keybind>
     <!-- top half -->
